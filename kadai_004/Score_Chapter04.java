@@ -22,8 +22,7 @@ public static void main(String[] args) {
   ten[9]  = 100;
 
   sum =(10 + 20 + 30+ 40 + 50 + 60 + 70 + 80 + 90 + 100);
-
-  for (int i = 0; i < ten.length; i++) {
+  {
   avg = sum / ten.length;
 
   System.out.println("Aさんの点数は" + ten[0] + "点");
