@@ -7,7 +7,7 @@ public static void main(String[] args) {
   int userAge = 3;
   int serviceCost;
 
-  switch(userAge) {
+  switch(userAge / 10) {
       case 1:
         serviceCost = 1000;
         System.out.println("10代の料金は1000円");
