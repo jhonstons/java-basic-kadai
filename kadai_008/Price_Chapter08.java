@@ -5,31 +5,39 @@ public class Price_Chapter08 {
 public static void main(String[] args) {
 
   int userAge = 3;
-  int serviceCost = 3000;
+  int serviceCost;
 
-  switch(serviceCost) {
-      case 1,1000:
+  switch(userAge) {
+      case 1:
+        serviceCost = 1000;
         System.out.println("10代の料金は1000円");
         break;
-      case 2,2000:
+      case 2:
+        serviceCost = 2000;
         System.out.println("20代の料金は2000円");
         break;
-      case 3,3000:
+      case 3:
+        serviceCost = 3000;
         System.out.println("30代の料金は3000円");
         break;
-      case 4,4000:
+      case 4:
+        serviceCost = 4000;
         System.out.println("40代の料金は4000円");
         break;
-      case 5,5000:
+      case 5:
+        serviceCost = 5000;
         System.out.println("50代の料金は5000円");
         break;
-      case 6,6000:
+      case 6:
+        serviceCost = 6000;
         System.out.println("60代の料金は6000円");
         break;
-      case 7,7000:
+      case 7:
+        serviceCost = 7000;
         System.out.println("70代の料金は7000円");
         break;
-      case 8,8000:
+      case 8:
+        serviceCost = 8000;
         System.out.println("80代の料金は8000円");
           break;
       default:
