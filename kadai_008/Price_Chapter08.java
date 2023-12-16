@@ -4,7 +4,7 @@ public class Price_Chapter08 {
 
 public static void main(String[] args) {
 
-  int userAge = 3;
+  int userAge = 30;
   int serviceCost;
 
   switch(userAge / 10) {
