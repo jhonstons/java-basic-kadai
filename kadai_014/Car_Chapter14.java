@@ -1,29 +1,12 @@
-package kadai.kadai_011;
+package kadai.kadai_014;
 
-public class Prime_Chapter11 {
+public class Car_Chapter14 {
+    public static void main(String[]args) {
 
-  public static void main(String[] args) {
+    //ギア、速度データを生成
+    CarExec_Chapter14 carGear = new CarExec_Chapter14( 1, 30);
 
-    int num = 101;
+    carGear.gearChange(3);
 
-    boolean[] array = new boolean[num];
-
-    for(int i = 0; i < num; i++) {
-     array[i] = true;
     }
-
-    for(int i = 2; i < 101; i++) {
-      for(int j = 2; j < i ; j++) {
-            if(i % j == 0) {
-               array[i] = false;
-                 break;
-        }
-      }
-    }
-    for(int i = 2; i < 101; i++) {
-      if(array[i]) {
-        System.out.println(i);
-      }
-    }
-  }
 }
